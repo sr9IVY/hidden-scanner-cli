@@ -1,0 +1,12 @@
+# rubric3_test.txt
+
+# This file contains a mix of secrets and normal lines
+
+username = "admin"
+api_key = "AKIAIOSFODNN7EXAMPLE"
+email = "user@example.com"
+password = "hunter2"
+notes = "This is a harmless comment"
+aws_secret_access_key = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+authorization = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+private_key = "-----BEGIN PRIVATE KEY-----MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAM..."
