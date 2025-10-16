@@ -1,5 +1,0 @@
-from scanner.scanner import scan_file_for_secrets
-
-results = scan_file_for_secrets("tests/test_file.txt")
-for r in results:
-    print(r)
