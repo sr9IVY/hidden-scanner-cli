@@ -28,3 +28,5 @@ python main.py --path ./rubric4_folder
 
 A screen print of the successful runs has been uploaded as Screenprint.docx
 
+A 1 minute video recordinf could not be saved for data restrictions - Please use Microsoft Word Reader to play the audio part of the computer video  for RecordingtobepalyedewithMicrosoftReader,
+
