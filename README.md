@@ -1,24 +1,30 @@
-#  Hidden Scanner CLI
+# Secret Scanner CLI
 
-A Python-based command-line tool that scans files or directories for hardcoded secrets such as API keys, passwords, tokens, and private keys. Built for secure coding practice and regex-based detection.
+A lightweight command-line tool to detect hardcoded secrets in text files and directories using regex-based pattern matching.
+
+---
 
 ##  Features
-- Accepts both file and directory paths via CLI
-- Uses regex to detect common secret patterns
-- Outputs a clean report with filename, line number, match type, and matched string
-- Includes logging for progress and errors
 
-##  Detection Logic
-The scanner uses regex patterns to detect:
-- API Keys
-- Passwords
-- AWS Secret Access Keys
-- Authorization Tokens
-- Private Keys
+-  Scans individual files or entire directories
+-  Detects secrets using 5 regex patterns:
+  - API Keys
+  - Passwords
+  - AWS Secret Access Keys
+  - Authorization Tokens
+  - Private Keys
+-  Outputs filename, line number, match type, and matched string
+-  Logs scanning progress and errors using Python's `logging` module
+-  Simple CLI interface powered by `argparse`
 
-##  Installation
+---
 
-Open this repository in GitHub Codespaces or clone locally.
+##  Tests Run
+python main.py --path ./Line.txt
+python main.py --path ./Newfolder
+python main.py --path ./secrets_test.txt
+python main.py --path ./rubric3_test.txt
+python main.py --path ./rubric4_folder
 
-```bash
-pip install -r requirements.txt
+A screen print of the successful runs has been uploaded as Screenprint.docx
+
