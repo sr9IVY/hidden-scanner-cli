@@ -1,4 +1,4 @@
-# Secret Scanner CLI
+# Hidden Scanner CLI
 
 A lightweight command-line tool to detect hardcoded secrets in text files and directories using regex-based pattern matching.
 
