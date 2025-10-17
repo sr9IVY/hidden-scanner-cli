@@ -1,0 +1,5 @@
+# rubric4_test.txt
+
+api_key = "AKIAIOSFODNN7EXAMPLE"
+notes = "This line is safe"
+password = "hunter2"
